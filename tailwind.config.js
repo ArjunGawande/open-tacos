@@ -16,19 +16,18 @@ module.exports = {
         sans: ['ISO', ...defaultTheme.fontFamily.sans]
       },
       colors: {
-        'custom-green': '#8BB191',
-        'ob-primary': '#F15E40',
-        'ob-secondary': '#8BB191',
-        'ob-tertiary': '#62cae3',
-        'ob-dark': '#0f172a', // slate-900
-        'custom-secondary': '#62cae3',
-        'custom-avery': '#a5d9cf',
-        'custom-primary': '#F07933',
-        'area-cue': '#004F6E', // background cue for Areas
-        'sport-climb-cue': '#00b896', // cue for sport climbs
-        shadow: '#84848442',
-        tooltip: 'rgb(254 243 199)' // background for Daist tooltip bg-amber-100
+        'primary': '#F15E40', // Main branding color
+        'secondary': '#8BB191', // Secondary branding color
+        'tertiary': '#62cae3', // Tertiary branding color
+        'dark': '#0f172a', // Slate-900 equivalent
+        'highlight': '#a5d9cf', // Accent color
+        'alert': '#F07933', // Used for alerts or warnings
+        'area-cue': '#004F6E', // Background cue for Areas
+        'sport-climb-cue': '#00b896', // Cue for sport climbs
+        'shadow': '#84848442', // Shadow effect
+        'tooltip': 'rgb(254 243 199)' // Background for Daist tooltip bg-amber-100
       },
+      
       height: {
         'screen-85': '85vh',
         'screen-80': '80vh',
